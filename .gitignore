@@ -3,7 +3,6 @@ build
 dist
 venv
 *.py[cod]
-*.swp
 *.egg-info
 *.egg/*
 *.eggs/*
