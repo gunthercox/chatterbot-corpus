@@ -1,1 +1,3 @@
 chatterbot
+nose
+mock
