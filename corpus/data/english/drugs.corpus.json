@@ -1,32 +1,3 @@
-
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Gist
-
-    @dmichelin
-
-1
-0
-
-    700
-
-dmichelin/ChatterBot forked from gunthercox/ChatterBot
-Code
-Pull requests 0
-Projects 0
-Wiki
-Pulse
-Graphs
-Settings
-ChatterBot/chatterbot/corpus/data/english/drugs.corpus.json
-914a815 an hour ago
-@dmichelin dmichelin Update drugs.corpus.json
-@vkosuri
-@dmichelin
-124 lines (122 sloc) 2.96 KB
 {
     "drugs": [
         [
