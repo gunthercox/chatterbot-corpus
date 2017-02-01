@@ -51,6 +51,11 @@ class CorpusLoadingTestCase(TestCase):
 
         self.assertTrue(len(corpus))
 
+    def test_load_corpus_traditional_chinese(self):
+        corpus = self.corpus.load_corpus('corpus.data.tchinese')
+
+        self.assertTrue(len(corpus))
+
     def test_load_corpus_english(self):
         corpus = self.corpus.load_corpus('corpus.data.english')
 
