@@ -38,28 +38,3 @@ class ChatBotTestCase(TestCase):
         Remove the test database.
         """
         self.chatbot.storage.drop()
-
-
-class ChatBotMongoTestCase(ChatBotTestCase):
-
-    def setUp(self):
-        from pymongo.errors import ServerSelectionTimeoutError
-        from pymongo import MongoClient
-
-        # Skip these tests if a mongo client is not running
-        try:
-            client = MongoClient(
-                serverSelectionTimeoutMS=0.1
-            )
-            client.server_info()
-
-        except ServerSelectionTimeoutError:
-            raise SkipTest('Unable to connect to Mongo DB.')
-
-        super(ChatBotMongoTestCase, self).setUp()
-
-    def get_kwargs(self):
-        kwargs = super(ChatBotMongoTestCase, self).get_kwargs()
-        kwargs['database'] = self.random_string()
-        kwargs['storage_adapter'] = 'chatterbot.storage.MongoDatabaseAdapter'
-        return kwargs

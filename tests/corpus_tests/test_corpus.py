@@ -1,6 +1,7 @@
-from unittest import TestCase
 import os
+from unittest import TestCase
 from corpus.corpus import Corpus
+
 
 class CorpusUtilsTestCase(TestCase):
 
