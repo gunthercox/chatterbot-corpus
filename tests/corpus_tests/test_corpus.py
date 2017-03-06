@@ -38,7 +38,7 @@ class CorpusUtilsTestCase(TestCase):
 
     def test_load_corpus_english(self):
         corpus = self.corpus.load_corpus("corpus.data.english")
-        self.assertEqual(len(corpus), 18)
+        self.assertEqual(len(corpus), 19)
         self.assertIn(corpus[1], corpus)
 
 
