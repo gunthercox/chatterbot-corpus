@@ -1,0 +1,4 @@
+mock
+nose
+pip
+twine
