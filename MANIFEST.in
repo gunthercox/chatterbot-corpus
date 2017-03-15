@@ -1,0 +1,9 @@
+include license.md
+include readme.md
+include requirements.txt
+
+recursive-include corpus/* *.json
+recursive-include corpus/* *.csv
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co~]
