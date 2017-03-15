@@ -4,7 +4,7 @@ import os
 class Corpus(object):
 
     def __init__(self):
-        current_directory = os.path.dirname(__file__)
+        current_directory = os.path.dirname(os.path.abspath(__file__))
         self.data_directory = os.path.join(current_directory, 'data')
 
     def get_file_path(self, dotted_path, extension='json'):
