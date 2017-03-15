@@ -15,12 +15,7 @@ If you are interested in contributing support for a new language please create a
 
 “A true professional does not waste the time and money of other people by handing over software that is not reasonably free of obvious bugs; that has not undergone minimal unit testing; that does not meet the specifications and requirements; that is gold-plated with unnecessary features; or that looks like junk.” – Daniel Read
 
-``` Bash
+```
 pip install -r requirements.txt
 nosetests
 ```
-
-*[Read in English](readme.md)*
-*[Leia em Português](readme.pt.md)*
-*[Leer en español](readme-es.md)*
-*[Lire en francais](readme-fr.md)*
