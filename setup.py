@@ -6,7 +6,7 @@ from setuptools import setup
 
 
 # Dynamically retrieve the version information from the chatterbot module
-CORPUS = __import__('corpus')
+CORPUS = __import__('chatterbot_corpus')
 VERSION = CORPUS.__version__
 AUTHOR = CORPUS.__author__
 AUTHOR_EMAIL = CORPUS.__email__
@@ -27,9 +27,9 @@ setup(
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
     packages=[
-        'corpus',
+        'chatterbot_corpus',
     ],
-    package_dir={'corpus': 'corpus'},
+    package_dir={'chatterbot_corpus': 'chatterbot_corpus'},
     include_package_data=True,
     install_requires=REQUIREMENTS,
     license='BSD',
