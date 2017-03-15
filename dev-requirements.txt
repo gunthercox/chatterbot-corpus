@@ -1,4 +1,3 @@
-mock
 nose
 pip
 twine

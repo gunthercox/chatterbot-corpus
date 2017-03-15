@@ -1,6 +1,5 @@
 include license.md
 include readme.md
-include requirements.txt
 
 recursive-include chatterbot_corpus/* *.json
 recursive-include chatterbot_corpus/* *.csv
