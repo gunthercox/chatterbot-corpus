@@ -1,0 +1,27 @@
+{
+  "name": "chatterbot-corpus",
+  "version": "1.0.0",
+  "description": "A multilingual dialog corpus.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunthercox/chatterbot-corpus.git"
+  },
+  "keywords": [
+    "chatterbot",
+    "corpus",
+    "dialog"
+  ],
+  "author": "Gunther Cox (https://github.com/gunthercox/)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/gunthercox/chatterbot-corpus/issues"
+  },
+  "homepage": "https://github.com/gunthercox/chatterbot-corpus#readme"
+}
