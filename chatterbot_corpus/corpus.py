@@ -33,8 +33,10 @@ class Corpus(object):
         """
         Read and return the data from a corpus json file.
         """
-        import yaml
         import io
+        from ruamel.yaml import YAML
+
+        yaml = YAML(typ='safe')
 
         with io.open(file_name, encoding='utf-8') as data_file:
             data = yaml.load(data_file)

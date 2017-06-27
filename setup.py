@@ -13,6 +13,9 @@ AUTHOR_EMAIL = CORPUS.__email__
 URL = CORPUS.__url__
 DESCRIPTION = CORPUS.__doc__
 
+with open('requirements.txt') as requirements:
+    REQUIREMENTS = requirements.readlines()
+
 setup(
     name='chatterbot-corpus',
     version=VERSION,
@@ -26,6 +29,7 @@ setup(
     packages=[
         'chatterbot_corpus',
     ],
+    install_requires=REQUIREMENTS,
     package_dir={'chatterbot_corpus': 'chatterbot_corpus'},
     include_package_data=True,
     license='BSD',
