@@ -24,7 +24,7 @@ class CorpusUtilsTestCase(TestCase):
     def test_read_english_corpus(self):
         corpus_path = os.path.join(
             self.corpus.data_directory,
-            'english', 'conversations.corpus.json'
+            'english', 'conversations.yml'
         )
         data = self.corpus.read_corpus(corpus_path)
         self.assertIn('conversations', data)
@@ -32,7 +32,7 @@ class CorpusUtilsTestCase(TestCase):
     def test_list_english_corpus_files(self):
         data_files = self.corpus.list_corpus_files('chatterbot.corpus.english')
 
-        self.assertIn('.json', data_files[0])
+        self.assertIn('.yml', data_files[0])
 
     def test_load_corpus(self):
         corpus = self.corpus.load_corpus('chatterbot.corpus.english.greetings')
