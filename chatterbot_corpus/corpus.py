@@ -33,11 +33,11 @@ class Corpus(object):
         """
         Read and return the data from a corpus json file.
         """
-        import json
+        import yaml
         import io
 
         with io.open(file_name, encoding='utf-8') as data_file:
-            data = json.load(data_file)
+            data = yaml.load(data_file)
         return data
 
     def list_corpus_files(self, dotted_path):
@@ -45,13 +45,15 @@ class Corpus(object):
         Return a list of file paths to each data file in
         the specified corpus.
         """
-        corpus_path = self.get_file_path(dotted_path, extension='corpus.json')
+        CORPUS_EXTENSION = 'yml'
+
+        corpus_path = self.get_file_path(dotted_path, extension=CORPUS_EXTENSION)
         paths = []
 
         if os.path.isdir(corpus_path):
             for dirname, dirnames, filenames in os.walk(corpus_path):
                 for datafile in filenames:
-                    if datafile.endswith('corpus.json'):
+                    if datafile.endswith(CORPUS_EXTENSION):
                         paths.append(os.path.join(dirname, datafile))
         else:
             paths.append(corpus_path)
