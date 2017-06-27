@@ -1,3 +1,4 @@
 nose
 pip
 twine
+flake8
