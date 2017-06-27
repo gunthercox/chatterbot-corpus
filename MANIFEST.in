@@ -1,7 +1,9 @@
+include requirements.txt
 include license.md
 include readme.md
 
 recursive-include chatterbot_corpus/* *.json
+recursive-include chatterbot_corpus/* *.yml
 recursive-include chatterbot_corpus/* *.csv
 
 recursive-exclude * __pycache__
