@@ -34,11 +34,17 @@ class CorpusUtilsTestCase(TestCase):
 
         self.assertIn('.yml', data_files[0])
 
-    def test_load_corpus(self):
+    def test_load_english_corpus(self):
         corpus = self.corpus.load_corpus('chatterbot.corpus.english.greetings')
 
         self.assertEqual(len(corpus), 1)
         self.assertIn(['Hi', 'Hello'], corpus[0])
+
+    def test_load_english_corpus_categories(self):
+        corpus = self.corpus.load_corpus('chatterbot.corpus.english.greetings')
+
+        self.assertEqual(len(corpus), 1)
+        self.assertIn('greetings', corpus.categories)
 
 
 class CorpusLoadingTestCase(TestCase):

@@ -1,6 +1,17 @@
 import os
 
 
+class CorpusObject(list):
+
+    def __init__(self, *args, **kwargs):
+        if args:
+            super(CorpusObject, self).__init__(args[0])
+        else:
+            super(CorpusObject, self).__init__()
+
+        self.categories = []
+
+
 class Corpus(object):
 
     def __init__(self):
@@ -69,12 +80,13 @@ class Corpus(object):
         """
         data_file_paths = self.list_corpus_files(dotted_path)
 
-        corpora = []
+        corpora = CorpusObject()
 
         for file_path in data_file_paths:
             corpus = self.read_corpus(file_path)
 
             for key in list(corpus.keys()):
                 corpora.append(corpus[key])
+                corpora.categories.append(key)
 
         return corpora
