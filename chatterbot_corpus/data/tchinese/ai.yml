@@ -1,4 +1,6 @@
-ai:
+categories:
+- AI
+conversations:
 - - 什麼是ai
   - 人工智能是工程和科學的分支,致力於構建思維的機器。
 - - 你寫的是什麼語言

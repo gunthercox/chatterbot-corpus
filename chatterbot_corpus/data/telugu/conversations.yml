@@ -1,4 +1,6 @@
-greetings:
+categories:
+- greetings
+conversations:
 - - నమస్కారం
   - నమస్కారం
 - - నమస్కారం
@@ -17,4 +19,3 @@ greetings:
   - ఇప్పుడే చేసాము
 - - శుభోదయం!
   - మీతో కలవటం చాల సంతోషం గ ఉంది
-

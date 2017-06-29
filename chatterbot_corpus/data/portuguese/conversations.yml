@@ -1,4 +1,6 @@
-conversas:
+categories:
+- conversas
+conversations:
 - - Bom Dia como você está?
   - Eu estou bem, e você?
   - Eu também estou.

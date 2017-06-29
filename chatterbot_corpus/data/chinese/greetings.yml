@@ -1,4 +1,6 @@
-greetings:
+categories:
+- greetings
+conversations:
 - - 你好
   - 嗨
 - - 嗨

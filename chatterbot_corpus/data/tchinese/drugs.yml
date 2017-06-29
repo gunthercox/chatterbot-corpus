@@ -1,4 +1,6 @@
-drugs:
+categories:
+- drugs
+conversations:
 - - 你需要吃藥
   - 你建議什麼？
 - - 你喝醉了嗎？

@@ -1,4 +1,6 @@
-emotion:
+categories:
+- emotion
+conversations:
 - - 你傲慢
   - 傲慢不是我的情感之一。
 - - 你是吹牛
