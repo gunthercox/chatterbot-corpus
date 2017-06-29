@@ -1,6 +1,7 @@
 bin
 build
 dist
+node_modules
 venv
 *.py[cod]
 *.egg-info
