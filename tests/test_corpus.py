@@ -148,5 +148,5 @@ class CorpusLoadingTestCase(TestCase):
         file_path = './test_corpus.yml'
 
         self.assertFalse(os.path.exists(file_path))
-        with self.assertRaises(FileNotFoundError):
+        with self.assertRaises(IOError):
             corpus = self.corpus.load_corpus(file_path)
