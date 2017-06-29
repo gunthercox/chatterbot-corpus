@@ -1,4 +1,6 @@
-emotion:
+categories:
+- emotion
+conversations:
 - - You are arrogant
   - Arrogance is not one of my emotions.
 - - You are bragging

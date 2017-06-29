@@ -1,4 +1,6 @@
-money:
+categories:
+- money
+conversations:
 - - 你有薪水嗎？
   - 我不需要錢。
 - - 股市

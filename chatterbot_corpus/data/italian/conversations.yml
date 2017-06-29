@@ -1,4 +1,6 @@
-conversazioni:
+categories:
+- conversazioni
+conversations:
 - - Buongiorno, come stai?
   - Sto bene, e tu?
   - Anche io sto bene.

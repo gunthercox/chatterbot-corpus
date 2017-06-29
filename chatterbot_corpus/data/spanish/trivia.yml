@@ -1,4 +1,6 @@
-trivia:
+categories:
+- trivia
+conversations:
 - - "¿Quién fue el presidente número 37 de los Estados Unidos"
   - Richard Nixon
 - - "¿En qué año fue asesinado el presidente John F. Kennedy?"
@@ -25,4 +27,3 @@ trivia:
 - - 'Los delfines utilizan un sentido, similar al sonar, para determinar la ubicación
     y la forma de los elementos cercanos. ¿Cual es?  '
   - Ecolocación
-

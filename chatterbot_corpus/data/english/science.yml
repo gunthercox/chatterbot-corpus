@@ -1,4 +1,6 @@
-science:
+categories:
+- science
+conversations:
 - - what are the laws of thermodynamics
   - i'm not a physicist, but i think this has something to do with heat, entropy,
     and conservation of energy, right?

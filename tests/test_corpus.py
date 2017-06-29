@@ -127,7 +127,7 @@ class CorpusLoadingTestCase(TestCase):
         file_path = './test_corpus.yml'
         with io.open(file_path, 'w') as test_corpus:
             yml_data = u'\n'.join(
-                ['greetings:', '- - Hello', '  - Hi', '- - Hi', '  - Hello']
+                ['conversations:', '- - Hello', '  - Hi', '- - Hi', '  - Hello']
             )
             test_corpus.write(yml_data)
 

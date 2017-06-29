@@ -1,4 +1,6 @@
-greetings:
+categories:
+- greetings
+conversations:
 - - नमस्कार
   - अरे / अहो
 - - अरे / अहो

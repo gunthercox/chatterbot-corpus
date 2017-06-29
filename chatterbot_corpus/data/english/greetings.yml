@@ -1,4 +1,6 @@
-greetings:
+categories:
+- greetings
+conversations:
 - - Hello
   - Hi
 - - Hi

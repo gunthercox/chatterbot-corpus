@@ -1,4 +1,6 @@
-sports:
+categories:
+- sports
+conversations:
 - - 'EACH YEAR IN PRO BASEBALL THE '
   - The Gold Glove.
 - - IF YOU ARE RIDING FAKIE INSIDE
@@ -45,4 +47,3 @@ sports:
   - Maradona is great. Sinsemillia is even better.
 - - TELL ME ABOUT BASEBALL
   - What is Baseball
-

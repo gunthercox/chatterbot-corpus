@@ -1,4 +1,6 @@
-greetings:
+categories:
+- greetings
+conversations:
 - - Assalamu'alaikum
   - Wa'alaikum salam warohmatullah
 - - Hi bro apa kabar?
