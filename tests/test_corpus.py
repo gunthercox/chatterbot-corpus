@@ -116,3 +116,26 @@ class CorpusLoadingTestCase(TestCase):
         corpus = self.corpus.load_corpus('chatterbot.corpus.telugu')
 
         self.assertTrue(len(corpus))
+
+    def test_load_corpus_file(self):
+        """
+        Test that a file path can be specified for a corpus.
+        """
+        import io
+
+        # Create a file for testing
+        file_path = './test_corpus.yml'
+        with io.open(file_path, 'w') as test_corpus:
+            yml_data = '\n'.join(
+                ['greetings:', '- - Hello', '  - Hi', '- - Hi', '  - Hello']
+            )
+            test_corpus.write(yml_data)
+
+        corpus = self.corpus.load_corpus(file_path)
+
+        # Remove the tet file
+        if os.path.exists(file_path):
+            os.remove(file_path)
+
+        self.assertEqual(len(corpus), 1)
+        self.assertEqual(len(corpus[0]), 2)
