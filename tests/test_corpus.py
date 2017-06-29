@@ -118,6 +118,14 @@ class CorpusLoadingTestCase(TestCase):
 
         self.assertTrue(len(corpus))
 
+    def test_load_corpus(self):
+        """
+        Test loading the entire corpus of languages.
+        """
+        corpus = self.corpus.load_corpus('chatterbot.corpus')
+
+        self.assertTrue(len(corpus))
+
     def test_load_corpus_file(self):
         """
         Test that a file path can be specified for a corpus.
