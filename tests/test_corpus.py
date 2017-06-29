@@ -2,6 +2,7 @@
 Tests for the chatterbot corpus package.
 """
 import os
+import io
 from unittest import TestCase
 from chatterbot_corpus.corpus import Corpus
 
@@ -121,7 +122,6 @@ class CorpusLoadingTestCase(TestCase):
         """
         Test that a file path can be specified for a corpus.
         """
-        import io
 
         # Create a file for testing
         file_path = './test_corpus.yml'
@@ -131,11 +131,22 @@ class CorpusLoadingTestCase(TestCase):
             )
             test_corpus.write(yml_data)
 
+        # Load the content from the corpus
         corpus = self.corpus.load_corpus(file_path)
 
-        # Remove the tet file
+        # Remove the test file
         if os.path.exists(file_path):
             os.remove(file_path)
 
         self.assertEqual(len(corpus), 1)
         self.assertEqual(len(corpus[0]), 2)
+
+    def test_load_corpus_file_non_existent(self):
+        """
+        Test that a file path can be specified for a corpus.
+        """
+        file_path = './test_corpus.yml'
+
+        self.assertFalse(os.path.exists(file_path))
+        with self.assertRaises(FileNotFoundError):
+            corpus = self.corpus.load_corpus(file_path)
