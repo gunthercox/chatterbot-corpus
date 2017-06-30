@@ -126,6 +126,12 @@ class CorpusLoadingTestCase(TestCase):
 
         self.assertTrue(len(corpus))
 
+
+class CorpusFilePathTestCase(TestCase):
+
+    def setUp(self):
+        self.corpus = Corpus()
+
     def test_load_corpus_file(self):
         """
         Test that a file path can be specified for a corpus.
@@ -158,3 +164,24 @@ class CorpusLoadingTestCase(TestCase):
         self.assertFalse(os.path.exists(file_path))
         with self.assertRaises(IOError):
             corpus = self.corpus.load_corpus(file_path)
+
+    def test_load_corpus_english_greetings(self):
+        file_path = os.path.join(self.corpus.data_directory, 'english', 'greetings.yml')
+
+        corpus = self.corpus.load_corpus(file_path)
+
+        self.assertEqual(len(corpus), 1)
+
+    def test_load_corpus_english(self):
+        file_path = os.path.join(self.corpus.data_directory, 'english')
+
+        corpus = self.corpus.load_corpus(file_path)
+
+        self.assertGreater(len(corpus), 1)
+
+    def test_load_corpus_english_trailing_slash(self):
+        file_path = os.path.join(self.corpus.data_directory, 'english') + '/'
+
+        corpus = self.corpus.load_corpus(file_path)
+
+        self.assertGreater(len(corpus), 1)
