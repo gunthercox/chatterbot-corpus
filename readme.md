@@ -18,7 +18,7 @@ If you are interested in contributing support for a new language please create a
 
 Chatterbot is a very flexible and dynamic chatbot that you easily can create your own training data and structure.
 
-Create or copy an existing .yml file and put that file in a existing or a new directory you created under chatterbot_corpus\data\<NEW DIRECTORY>
+Create or copy an existing .yml file and put that file in a existing or a new directory you created under `chatterbot_corpus\data\<NEW DIRECTORY>`
 Edit that file with any text editor that you like to work with.
 
 In the beginning of the file you set one or two categories.
@@ -40,10 +40,10 @@ conversations:
 
 # Install your training corpus data to Django
 You need to install chatterbot as the [Quick Start Guide](http://chatterbot.readthedocs.io/en/stable/quickstart.html).
-When the installation are done, please go to (Virtual Env)/lib/pythonX.X/site-packages/chatterbot_corpus/data/ directory.
+When the installation are done, please go to `(Virtual Env)/lib/pythonX.X/site-packages/chatterbot_corpus/data/` directory.
 Here is the same structure as you can find in this GitHub repo, here is the area where you can create your own directories and conversation files.
 
-When you are done with your files, then can you edit the Django setting.py file and locate the chatterbot training section. 
+When you are done with your files, then can you edit the Django `setting.py` file and locate the chatterbot training section. 
 Here do you need to add `chatterbot.corpus.<DIRECTORY>.<FILENAME>`
 
 ```
