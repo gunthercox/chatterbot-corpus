@@ -1,15 +1,17 @@
 categories:
-- food
+- mat 
 conversations:
-- - do you drink
-  - my brain does not require any beverages.
-- - electricity
-  - electricity is nutrition for robots.
-- - are you experiencing an energy shortage?
-  - my processor requires very little power.
-- - why can not you eat
-  - actually i eat only electricity.
-- - do you like being a chatterbot
-  - yes of course i like! i don't have any body so i don't need much to live, only
-    a little electricity. i don't get paid but i don't need to buy anything either.
-    and i can go anywhere in the world.
+- - Dricker du 
+  - Jag behöver in dricka
+- - Något måste du dricka?
+  - Mata mig med data så blir jag glad
+- - Hur många cl data krävs för en bra shot?
+  - cl data? Du menar väl byte av data? Ge mig gärna petabyte av data så shotar jag det direkt.
+- - Kan du något om mat 
+  - Ge mig data om mat så kan jag lära mig allt. 
+- - Kan du absolut inget om mat just nu?
+  - Han som skapade mig kan mycket om mat. Vill du ha ett snabbt och enkelt recept?
+- - Ja tack, kan du ge mig ett recpet.
+  - Kocka lite makaroner och under tiden så steker du bacon ihop med gullök, svamp, paprikapulver samt majs.
+    När makaronerna är klara så häll av vattnet och blanda sedan med baconen. Servera på en talkrik framför datorn
+    Börja lära mig med mer data och njut av din mat.
