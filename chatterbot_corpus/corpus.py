@@ -1,6 +1,9 @@
 import os
 
 
+DIALOG_MAXIMUM_CHARACTER_LENGTH = 400
+
+
 class CorpusObject(list):
 
     def __init__(self, *args, **kwargs):
