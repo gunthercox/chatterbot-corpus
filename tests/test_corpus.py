@@ -45,8 +45,15 @@ class CorpusUtilsTestCase(TestCase):
         corpus = self.corpus.load_corpus('chatterbot.corpus.english.greetings')
 
         self.assertEqual(len(corpus), 1)
-        self.assertIn('greetings', corpus.categories)
+        self.assertIn('greetings', corpus.categories[0])
 
+    def test_multiple_corpus_categories(self):
+        corpus = self.corpus.load_corpus('chatterbot.corpus.english')
+
+        self.assertTrue(len(corpus.categories) > 1)
+
+        # categories are sorted, it safe expect ai will come first
+        self.assertIn('AI', corpus.categories[0])
 
 class CorpusLoadingTestCase(TestCase):
 
