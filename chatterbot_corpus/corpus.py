@@ -88,9 +88,10 @@ class Corpus(object):
         for file_path in data_file_paths:
             corpus = self.read_corpus(file_path)
 
-            corpora.categories = corpus.get('categories', [])
-            conversations = corpus.get('conversations', [])
+            categories = corpus.get('categories', [])
+            corpora.categories.extend([categories])
 
+            conversations = corpus.get('conversations', [])
             corpora.extend([conversations])
 
         return corpora
