@@ -5,6 +5,11 @@ DIALOG_MAXIMUM_CHARACTER_LENGTH = 400
 
 
 class CorpusObject(list):
+    """
+    This is a proxy object that allow additional
+    attributes to be added to the collections of
+    data that get returned by the corpus reader.
+    """
 
     def __init__(self, *args, **kwargs):
         if args:

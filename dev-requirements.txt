@@ -2,3 +2,5 @@ nose
 pip
 twine
 flake8
+sphinx>=1.6,<1.7
+sphinx_rtd_theme
