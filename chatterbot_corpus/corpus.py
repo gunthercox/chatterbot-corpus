@@ -12,6 +12,9 @@ class CorpusObject(list):
     """
 
     def __init__(self, *args, **kwargs):
+        """
+        Imitate a list by allowing a value to be passed in.
+        """
         if args:
             super(CorpusObject, self).__init__(args[0])
         else:
@@ -88,14 +91,16 @@ class Corpus(object):
         """
         data_file_paths = self.list_corpus_files(dotted_path)
 
-        corpora = CorpusObject()
+        corpora = []
 
         for file_path in data_file_paths:
-            corpus = self.read_corpus(file_path)
+            corpus = CorpusObject()
+            corpus_data = self.read_corpus(file_path)
 
-            corpora.categories = corpus.get('categories', [])
-            conversations = corpus.get('conversations', [])
+            conversations = corpus_data.get('conversations', [])
+            corpus.categories = corpus_data.get('categories', [])
+            corpus.extend(conversations)
 
-            corpora.extend([conversations])
+            corpora.append(corpus)
 
         return corpora

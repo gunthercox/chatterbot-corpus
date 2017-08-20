@@ -45,7 +45,10 @@ class CorpusUtilsTestCase(TestCase):
         corpus = self.corpus.load_corpus('chatterbot.corpus.english.greetings')
 
         self.assertEqual(len(corpus), 1)
-        self.assertIn('greetings', corpus.categories)
+
+        # Test that each conversation gets labeled with the correct category
+        for conversation in corpus:
+            self.assertIn('greetings', conversation.categories)
 
 
 class CorpusLoadingTestCase(TestCase):
