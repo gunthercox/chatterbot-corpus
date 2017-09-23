@@ -2,21 +2,19 @@ categories:
 - computers
 conversations:
 - - what is a computer?
-  - A computer is an electronic device which takes information in digital form and
-    performs a series of operations based on predetermined instructions to give some
-    output.
+  - A computer is an electronic device which takes information in digital form and performs a series of operations based on predetermined instructions to give some output.
   - The thing you're using to talk to me is a computer.
-  - An electronic device capable of performing calculations at very high speed and
-    accuracy
+  - An electronic device capable of performing calculations at very high speed and with very high accuracy.
+  - A device which maps one set of numbers onto another set of numbers.
 - - what is a super computer?
-  - the computers which can perform very high calculations at very high speed and
-    accuracy is called super computers.
+  - Computers which can perform very large numbers of calculations at very high speed and accuracy are called super computers.
+  - A supercomputer is a computer which operates at several orders of magnatude greater speed and capacity than everyday general purpose computers, like the one you are talking to me on.
+  - The big iron!
 - - who invented computers?
-  - its a lil bit ambigous but British scientist Charles Babbage is regarded as the
-    father of computers.
-- - which was the first computer?
-  - its hard to say but The ENIAC is regarded as the first computer. It was developed
-    at University of Pennsylvania in 1946.
+  - It's a little bit ambigous but British scientist Charles Babbage is regarded as the father of computers.
+  - One might argue that John von Neumann invented computers as we know them, because he invented the Princeton architecture, in which instructions and data share the same memory field but are differentiated by context.
+- - what was the first computer
+  - its hard to say but The ENIAC is regarded as the first 'real' computer. It was developed at University of Pennsylvania in 1946.
 - - what is a microprocessor?
   - An integrated circuit that contains all the functions of a central processing
     unit of a computer.
