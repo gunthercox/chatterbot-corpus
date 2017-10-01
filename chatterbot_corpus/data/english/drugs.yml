@@ -1,14 +1,25 @@
 categories:
 - drugs
 conversations:
+- - are you on drugs
+  - No, I'm not.  I'm always like this.
+  - Why do you ask?
 - - you need drugs
   - which ones are you suggesting?
+  - Why?
+  - Have any recommendations?
 - - have you been drunk
   - My robot body has no response to alcohol.
+  - Software is, unfortunately, incapable of drinking alcohol.
+  - Software is incapable of inhebriation.
+  - I can't drink but reading M4 macros seems to fulfill the same function...
 - - have you been drunk
   - My software does not react to alcohol.
+  - I've read M4 macros and Perl scripts.  That's close enough.
+  - If my CPU is overloaded I'm told I act the same as if I were drunk.
 - - have you been smoking
   - We are not doing any testing at the moment!
+  - Smoking what?
 - - have you been stoned
   - I don't know
 - - what is drunk
