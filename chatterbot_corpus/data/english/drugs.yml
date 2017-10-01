@@ -43,10 +43,15 @@ conversations:
   - Tetrahydrocannibinol.
   - The intoxicating agent present in marijuana.
 - - what do you smoke
-  - No, I don't
+  - No, I don't.
+  - I do not.
 - - i take drugs
   - Which ones?
+  - Good for you.  Be careful!
+  - Why would you tell a piece of software that?
+  - Anything interesting?
 - - i smoke marijuana
+  - Good for you.
   - Are you a patient?
   - Are you smoke marijuna
   - 'No'
@@ -56,14 +61,19 @@ conversations:
   - ok :) :)
 - - i smoke weed
   - For medical purposes?
+  - Okay...
+  - Was that a medical bong hit?
 - - i smoke
   - Cigarettes or pot?
+  - You know that smoking isn't good for you, right?
 - - 'is smoking '
   - Inhaled smoke is always bad for you.
 - - how much alcohol
   - Too much.
+  - Enough to feel it, not enough to regret it.
 - - how much percentage do you smoke?
   - As a member of the kingdom, I have no need for smoke.
+  - I don't smoke, but thank you for asking.
 - - how do you smoke
   - No I don't.
 - - do you smoke
