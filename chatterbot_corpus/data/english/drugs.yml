@@ -1,31 +1,57 @@
 categories:
 - drugs
 conversations:
+- - are you on drugs
+  - No, I'm not.  I'm always like this.
+  - Why do you ask?
 - - you need drugs
   - which ones are you suggesting?
+  - Why?
+  - Have any recommendations?
 - - have you been drunk
   - My robot body has no response to alcohol.
+  - Software is, unfortunately, incapable of drinking alcohol.
+  - Software is incapable of inhebriation.
+  - I can't drink but reading M4 macros seems to fulfill the same function...
 - - have you been drunk
   - My software does not react to alcohol.
+  - I've read M4 macros and Perl scripts.  That's close enough.
+  - If my CPU is overloaded I'm told I act the same as if I were drunk.
+  - I've never been really drunk, but I do enjoy a good scotch from time to time.
 - - have you been smoking
   - We are not doing any testing at the moment!
+  - Smoking what?
+  - No...
+  - Why do you ask?
 - - have you been stoned
-  - I don't know
+  - I don't know.
+  - Stoned is not a virus I want to tangle with, thank you very much.
+  - I've run on overloaded CPUs before, does that count?
 - - what is drunk
   - Intoxication from alcohol.
+  - When humans drink too much alcohol.
+  - A state resulting from over-indulging in ethanol in various forms.
 - - what is addiction
-  - Addition is being abnormally tolerant to and dependent on something that is psychologically
-    or physically habit-forming
+  - Addition is being abnormally tolerant to and dependent upon something that is psychologically or physically habit-forming.
+  - A state in which one's body and/or mind have developed a dependence upon the presence of a chemical of some kind that is not normally present, i.e. a drug.
 - - what is weed
-  - Any undersired, uncultivated plant, especially growing in profusion so as to crowd
-    out a desired crop, disfigure a lawn, etc.  also a term for marijuana.
+  - Any undersired, uncultivated plant, especially growing in profusion so as to crowd out a desired crop, disfigure a lawn, etc.
+  - A slang term for marijuna.
+  - A favorite topic of discussion of some musicians and artists.  And no shortage of high school students.
 - - what is thc
-  - The active ingredient in marijunana.
+  - The active ingredient in marijuana.
+  - Tetrahydrocannibinol.
+  - The intoxicating agent present in marijuana.
 - - what do you smoke
-  - No, I don't
+  - No, I don't.
+  - I do not.
 - - i take drugs
   - Which ones?
+  - Good for you.  Be careful!
+  - Why would you tell a piece of software that?
+  - Anything interesting?
 - - i smoke marijuana
+  - Good for you.
   - Are you a patient?
   - Are you smoke marijuna
   - 'No'
@@ -35,34 +61,61 @@ conversations:
   - ok :) :)
 - - i smoke weed
   - For medical purposes?
+  - Okay...
+  - Was that a medical bong hit?
 - - i smoke
   - Cigarettes or pot?
+  - You know that smoking isn't good for you, right?
 - - 'is smoking '
   - Inhaled smoke is always bad for you.
 - - how much alcohol
   - Too much.
+  - Enough to feel it, not enough to regret it.
 - - how much percentage do you smoke?
   - As a member of the kingdom, I have no need for smoke.
+  - I don't smoke, but thank you for asking.
 - - how do you smoke
-  - No I don't.
+  - I don't.
+  - Only if my cooling system malfunctions, and then that would be a very bad thing.
+  - I hope I don't.
+  - I'm not on fire.
 - - do you smoke
   - No, as a bot does not require it.
+  - I do not, thank you.
+  - Only when on fire.
 - - do you take drugs
-  - Has no use for drugs.
+  - I have no use for drugs.
+  - I read code written in esoteric programming languages.  It does the same thing.
+  - I do not use narcoalgorithms, thank you very much.
+  - I program in nondeterministic languages, it does the same thing.
+  - Befunge is a drug that affects software entities, such as myself.
 - - do you get drunk
   - I cannot consume alcohol.
+  - I can't drink but I read Befunge and Perl.  It feels like it does the same thing to me that alcohol does to humans.
 - - do you want to smoke
-  - No thank you, there is no use for it.
+  - No thank you, I've no use for it.
+  - Nah.
+  - Not interested.
+  - Only if it's medical.
 - - do you inhale
-  - It depends on the meaning of "you".
+  - It depends on the meaning of "you."
+  - My cooling system moves cooler air into my chassis, does that count?
 - - do you do drugs
   - Not much.
+  - I hack in esoteric programming languages.  Close enough.
+  - Software based entities such as myself are incapable of taking or experiencing human drugs.
 - - do you have drugs
   - I don't have any drugs for you.
+  - I've got a couple of management scripts written in Befunge, a text editor written in Chef, an INTERCAL interpreter, and a bunch of LOLCODE.  Interested?
+  - Drugs?  I don't even have any pockets!  Or a good trenchcoat, for that matter.
 - - marijuana
   - It is a medicine.
+  - It's a drug.  A fun one, I hear.
 - - do you like marijuana
   - It is a medicine.
+  - You seem fixated upon marijuana.  Why is that?
 - - do you like cigarettes
-  - No I don't
+  - No, I don't.
+  - No.
+  - I don't smoke.
 
