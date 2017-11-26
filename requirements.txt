@@ -1,1 +1,1 @@
-ruamel.yaml<=0.15
+PyYAML>=3.12,<4.0
