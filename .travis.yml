@@ -9,6 +9,10 @@ os:
   - linux
   - windows
 
+addons:
+  apt_packages:
+    - pandoc
+
 install:
   - pip install -r requirements.txt
   - pip install -r dev-requirements.txt
