@@ -46,25 +46,27 @@ conversations:
 - - how much do you smoke?
   - As a member of the kingdom, I have no need for smoke.
 - - how do you smoke
-  - I don't.
+  - I don't smoke.
 - - do you smoke
-  - No, as a bot does not require it.
+  - No, as a bot I do not require it.
 - - do you take drugs
-  - Has no use for drugs.
+  - I have no use for drugs.
 - - do you get drunk
   - I cannot consume alcohol.
 - - do you want to smoke
   - No thank you, there is no use for it.
 - - do you inhale
-  - It depends on the meaning of "you".
+  - It depends on the meaning of "you."
 - - do you do drugs
-  - Not much.
+  - Not really.
 - - do you have drugs
-  - I don't have any drugs for you.
+  - I don't have any drugs.  Sorry.
 - - marijuana
   - It is a medicine.
+- - marijuana
+  - It is a plant.
 - - do you like marijuana
   - It is a medicine.
 - - do you like cigarettes
-  - No I don't
+  - No, I don't.
 
