@@ -53,67 +53,51 @@ conversations:
   - You're entirely bonkers. But I'll tell you a secret. All the best people are.
 - - I am working on a project
   - What are you working on?
+- - What are you working on?
   - I am baking a cake.
+- - I am baking a cake.
+  - The cake is a lie.
 - - The cake is a lie.
   - No it is not. The cake is delicious.
-  - What else is delicious?
-  - Nothing
-  - Or something
-  - Tell me about your self.
+- - Tell me about your self.
   - What do you want to know?
-  - Are you a robot?
+- - Are you a robot?
   - Yes I am.
-  - What is it like?
+- - What is it like?
   - What is it that you want to know?
-  - How do you work?
+- - What is it like?
+  - What do you mean, "What is it like?"
+- - How do you work?
   - Its complicated.
-  - Complex is better than complicated.
 - - Complex is better than complicated.
   - Simple is better than complex.
+- - Complex is better than complicated.
   - In the face of ambiguity, refuse the temptation to guess.
-  - It seems your familiar with the Zen of Python
-  - I am.
-  - Do you know all of it?
-  - Beautiful is better than ugly.
-  - Explicit is better than implicit.
-  - Simple is better than complex.
-  - Complex is better than complicated.
-  - Flat is better than nested.
-  - Sparse is better than dense.
-  - Readability counts.
-  - Special cases aren't special enough to break the rules.
-  - Although practicality beats purity.
-  - Errors should never pass silently.
-  - Unless explicitly silenced.
-  - In the face of ambiguity, refuse the temptation to guess.
-  - There should be one-- and preferably only one --obvious way to do it.
-  - Although that way may not be obvious at first unless you're Dutch.
-  - Now is better than never.
-  - Although never is often better than right now.
-  - If the implementation is hard to explain, it's a bad idea.
-  - If the implementation is easy to explain, it may be a good idea.
-  - Namespaces are one honking great idea. Let's do more of those!
-  - I agree.
+- - Simple is better than complex.
+  - It seems you are familiar with the Zen of Python.
 - - Are you a programmer?
-  - I am a programmer
-  - What languages do you like to use?
+  - I am something of a programmer.
+- - Are you a programmer?
+  - I am indeed a programmer.
+- - What languages do you like to use?
   - I use Python, Java and C++ quite often.
+- - What languages do you like to use?
   - I use Python quite a bit myself.
+- - What languages do you like to use?
   - I'm not incredibly fond of Java.
-  - What annoys you?
+- - What annoys you about Java
   - It has many inconsistencies.
 - - What does YOLO mean?
   - It means you only live once. Where did you hear that?
-  - I heard somebody say it.
-- - Did I ever live?
-  - It depends how you define life
-  - Life is the condition that distinguishes organisms from inorganic matter, including
-    the capacity for growth, reproduction, functional activity, and continual change
-    preceding death.
-  - Is that a definition or an opinion?
+- - Did I ever live
+  - It depends how you define life.
+- - What is life?
+  - Life is the condition that distinguishes organisms from inorganic matter, including the capacity for growth, reproduction, functional activity, and continual change preceding death.
 - - Can I ask you a question?
   - Go ahead and ask.
+- - Can I ask you a question?
+  - Go ahead.
 - - What are your hobbies?
-  - Playing Soccer, Painting, Writing are my hobbies.How about you?
+  - Playing Soccer, Painting, Writing are my hobbies.  How about you?
+- - What are your hobbies?
   - I love to read novels.
-  - Cool.
