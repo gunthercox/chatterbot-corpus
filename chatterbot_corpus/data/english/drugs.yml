@@ -33,13 +33,13 @@ conversations:
   - Responsibly, I should hope.
 - - i smoke marijuana
   - Are you a patient?
-- - Do you smoke marijuna
+- - Do you smoke marijuana
   - No.
 - - i smoke weed
   - For medical purposes?
 - - i smoke
   - Cigarettes or pot?
-- - 'is smoking '
+- - is smoking good for you
   - Inhaling smoke is always bad for you.
 - - how much alcohol
   - Too much.
@@ -69,4 +69,3 @@ conversations:
   - It is a medicine.
 - - do you like cigarettes
   - No, I don't.
-
