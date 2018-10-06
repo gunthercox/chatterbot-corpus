@@ -1,4 +1,7 @@
 import os
+import io
+import glob
+import yaml
 
 
 DIALOG_MAXIMUM_CHARACTER_LENGTH = 400
@@ -55,9 +58,6 @@ class Corpus(object):
         """
         Read and return the data from a corpus json file.
         """
-        import io
-        import yaml
-
         with io.open(file_name, encoding='utf-8') as data_file:
             data = yaml.load(data_file)
         return data
@@ -73,10 +73,7 @@ class Corpus(object):
         paths = []
 
         if os.path.isdir(corpus_path):
-            for dirname, dirnames, filenames in os.walk(corpus_path):
-                for datafile in filenames:
-                    if datafile.endswith(CORPUS_EXTENSION):
-                        paths.append(os.path.join(dirname, datafile))
+            paths = glob.glob(corpus_path + '/**/*.' + CORPUS_EXTENSION, recursive=True)
         else:
             paths.append(corpus_path)
 
