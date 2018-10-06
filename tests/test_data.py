@@ -1,6 +1,5 @@
-from __future__ import unicode_literals
 from unittest import TestCase
-from chatterbot_corpus.corpus import Corpus
+from chatterbot_corpus import corpus
 
 
 class CorpusUtilsTestCase(TestCase):
@@ -9,17 +8,14 @@ class CorpusUtilsTestCase(TestCase):
     corpus data adheres to a few general rules.
     """
 
-    def setUp(self):
-        self.corpus = Corpus()
-
     def test_character_count(self):
         """
-        Test that no line in the corpus excedes the
+        Test that no line in the corpus exceeds the
         maximum number of characters.
         """
         from chatterbot_corpus.corpus import DIALOG_MAXIMUM_CHARACTER_LENGTH
 
-        corpora = self.corpus.load_corpus('chatterbot.corpus')
+        corpora = corpus.load_corpus('chatterbot.corpus')
 
         for conversations in corpora:
             for conversation in conversations:
