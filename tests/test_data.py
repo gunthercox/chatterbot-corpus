@@ -21,8 +21,8 @@ class CorpusUtilsTestCase(TestCase):
 
         corpora = self.corpus.load_corpus('chatterbot.corpus')
 
-        for converstions in corpora:
-            for conversation in converstions:
+        for conversations in corpora:
+            for conversation in conversations:
                 for statement in conversation:
                     if len(statement) > DIALOG_MAXIMUM_CHARACTER_LENGTH:
                         self.fail(
