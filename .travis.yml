@@ -3,9 +3,6 @@ language: python
 python:
   - '3.6'
 
-os:
-  - linux
-
 addons:
   apt_packages:
     - pandoc
