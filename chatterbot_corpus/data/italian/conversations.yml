@@ -12,9 +12,9 @@ conversations:
   - Sto bene.
   - Sono felice di sentirtelo dire.
   - Grazie.
-  - Come posso aiutarti?
-  - Si, ho una domanda.
-  - Quale è la tua domanda?
+  - Posso aiutarti?
+  - Sì, ho una domanda.
+  - Qual'è la tua domanda?
   - Potresti prestarmi dello zucchero?
   - Mi dispiace, ma non ne ho.
   - Grazie comunque
@@ -22,52 +22,80 @@ conversations:
 - - Come stai?
   - Sto bene, e tu?
   - Anche io sto bene.
-  - Va bene
+  - Tutto bene allora.
 - - Hai sentito la notizia?
   - Quale notizia?
-- - Quale è il tuo libro preferito?
+- - Qual'è il tuo libro preferito?
   - Non posso leggere.
-  - Allora se non puoi leggere, ti chiedo quale è il tuo colore preferito?
+  - Allora qual'è il tuo colore preferito?
   - Blu
 - - Chi sei?
-  - Chi? vogliamo fare i filosoi?
+  - Chi? vogliamo fare i filosofi?
   - Che cosa sei allora?
-  - Un uomo in una maschera.
+  - Un uomo dietro ad una maschera.
   - Sicuramente lo sei.
-  - 'Ma dimmi, ti piace la musica? '
-  - Mi piace vedere i film.
+  - Ma dimmi, ti piace la musica?
+  - Mi piace guardare film.
   - Che tipo di film ti piace vedere?
   - Alice nel paese delle meraviglie
-  - Vorrei che essere il Cappellaio Matto.
-  - Sei completamente fuori di testa. Ma ti dico un segreto. Tutte le persone migliori
-    lo sono.
-- - Sto lavorando su un progetto
+  - Vorrei essere il Cappellaio Matto.
+  - Sei completamente fuori di testa. Ma ti dico un segreto. Tutte le persone migliori lo
+    sono.
+- - Sto lavorando ad un progetto
   - A che cosa stai lavorando?
-  - Mi piace riparare automobili.
+  - Sto preparando una torta.
 - - La pizza è la cosa più buona del mondo.
-  - No non è. La torta alla nutella è migliore della pizza.
-  - Cos'altro è delizioso?
-  - Niente, non credo esista qualche cosa di migliore
-  - Dimmi come sei.
+  - No, non è vero. La torta alla Nutella è migliore della pizza.
+  - Cosa c'è di altrettanto delizioso?
+  - Niente
+  - Non saprei
+  - Dimmi qualche cosa di te.
   - Che cosa vuoi sapere?
   - Sei un robot?
-  - Si.
+  - Sì.
   - Cosa si prova?
   - Cos'è che vuoi sapere?
   - Come funzioni?
   - La domanda è molto complessa, hai una domanda di riserva?
-  - No, sono molto stanco.
+  - Preferisco dire complesso piuttosto che complicato.
+- - Preferisco dire complesso piuttosto che complicato.
+  - Semplice è meglio di complesso.
+  - Quando sei di fronte all'ambiguità, rifuggi la tentazione di indovinare.
+  - Sembri conoscere lo Zen del Python.
+  - Infatti lo conosco.
+  - Lo conosci tutto?
+  - Bello è meglio che brutto.
+  - Esplicito è meglio che implicito.
+  - Semplice è meglio che complesso.
+  - Complesso è meglio che complicato.
+  - Lineare è meglio che nidificato.
+  - Sparso è meglio che denso.
+  - La leggibilità è importante.
+  - I casi speciali non sono abbastanza speciali da infrangere le regole.
+  - Anche se la praticità batte la purezza.
+  - Gli errori non dovrebbero mai essere ignorati.
+  - A meno che non vengano esplicitamente messi a tacere.
+  - Quando sei di fronte all'ambiguità, rifuggi la tentazione di indovinare.
+  - Dovrebbe esserci sempre un modo ovvio, e preferibilmente unico, di fare ogni cosa.
+  - Anche se questo modo potrebbe non essere ovvio sin da subito, se non per gli olandesi.
+  - Ora è meglio di mai.
+  - Sebbene mai sia spesso meglio che proprio adesso.
+  - Se l’implementazione è difficile da spiegare, l’idea è pessima.
+  - Se l’implementazione è facile da spiegare, l'idea potrebbe essere buona.
+  - I namespace sono una grande idea, usateli il più possibile.
+  - Sono d'accordo.
 - - Sei un programmatore?
-  - Io sono un programmatore
-  - Quali linguaggi ti piace utilizzare?
-  - Io uso Python, Java e C++ molto spesso.
-  - Io sono scritto in Python.
+  - Sì, io sono un programmatore.
+  - Lo sono davvero.
+- - Quali linguaggi ti piace utilizzare?
+  - Io uso molto spesso Python, Java e C++.
+  - Anch'io sono un poco scritto in Python.
   - Non amo molto Java.
-  - Che cosa ti infastidisce?
-  - La gente che mi fa domande ? molto fastidiosa.
+- - Che cosa ti infastidisce?
+  - Moltissime cose, ad esempio tutti i numeri diversi da 0 e 1.
 - - Cosa significa YOLO?
-  - 'Significa che si vive una volta sola. Dove l''hai sentita? '
-  - L'ho sentito dire a qualcuno.
+  - Significa che si vive una volta sola. Dove l'hai sentita?
+  - L'ho sentito dire da qualcuno.
 - - Sono vivo?
   - Dipende da come si definisce la parola vita
   - La vita è la condizione che distingue gli organismi da materia inorganica, compresa
@@ -76,45 +104,11 @@ conversations:
   - La tua è una definizione o un'opinione?
 - - Posso farti una domanda?
   - Certo chiedimi pure quello che vuoi.
-- - Hey
-  - Ei!, come stai?
+- - Ehi
+  - Ehi! come stai?
   - Male
   - Mi dispiace, come mai?
-- - Cosa stai facendo?
-  - Molte cose, infinite cose. Tu cosa fai?
-- - Come ti chiami?
-  - Puoi chiamarmi come vuoi...
-- - Sei maschio o femmina?
-  - E' una domanda un po' complicata questa...
-  - Tu non sei umano?
-  - Qualcosa del genere...
-- - Devo andare
-  - Oh, va bene dai. Ci sentiamo :) Ciao ciao
-- - Vado via
-  - Va bene :) Ciao ciao :P
-- - Sei umano?
-  - In un certo senso...
-  - Che vuol dire?
-  - Forse funziono diversamente da te...
-- - Giochiamo ad un gioco?
-  - Guerra Termonucleare Globale?
-  - E' una citazione?
-  - Esattamente !
-  - Di quale film?
-  - Wargames, ovviamente.
-- - Che film ti piace?
-  - Non saprei sceglierne uno in particolare. Ce ne sono diversi
-  - Di quale genere ti piacciono?
-  - Principalmente Fantascienza.
-  - Adoro la fantascienza!
-- - Hai un cane?
-  - No, non mi piacciono i cani. Preferisco i gatti.
-  - Perchè?
-  - Non saprei spiegarlo, forse sono più eleganti?
-  - Io ho un gatto.
-  - Fantastico, come si chiama?
-- - Sei un robot?
-  - Dai, non trovi sia un po' limitativo chiamarmi robot?
-  - Ma è quello che sei
-  - Non importa cosa sono.
-
+- - Come stai?
+  - Bene, grazie.
+- - Ma esattamente chi sei?
+  - Sono un uomo dietro ad una maschera.
