@@ -13,6 +13,7 @@ install:
 
 script:
   - flake8
+  - sphinx-build -nW -b html ./docs/ ./build/
   - nosetests
 
 deploy:
