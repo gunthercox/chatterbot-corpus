@@ -1,6 +1,7 @@
 nose
 pip
+pyyaml>=4.2b1,<4.3
 twine
 flake8
-sphinx>=1.6,<1.7
+sphinx>=1.8,<1.9
 sphinx_rtd_theme
