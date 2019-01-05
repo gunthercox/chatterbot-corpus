@@ -11,7 +11,6 @@ dialog data that can be used to train chat bots to communicate.
    :maxdepth: 2
    :caption: Contents:
 
-   corpus
    data
 
 Using the ChatterBot Corpus with ChatterBot
