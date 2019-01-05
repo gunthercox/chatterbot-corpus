@@ -1,4 +1,3 @@
-include requirements.txt
 include license.md
 include readme.md
 

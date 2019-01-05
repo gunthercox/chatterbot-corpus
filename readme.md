@@ -61,6 +61,6 @@ When you are done, please proceed with the Django Chatterbot Training session.
 “A true professional does not waste the time and money of other people by handing over software that is not reasonably free of obvious bugs; that has not undergone minimal unit testing; that does not meet the specifications and requirements; that is gold-plated with unnecessary features; or that looks like junk.” – Daniel Read
 
 ```
-pip install -r requirements.txt
+pip install -r dev-requirements.txt
 nosetests
 ```
