@@ -22,8 +22,20 @@ class CorpusUtilsTestCase(TestCase):
                 for statement in conversation:
                     if len(statement) > DIALOG_MAXIMUM_CHARACTER_LENGTH:
                         self.fail(
-                            u'"{}" cannot be longer than {} characters'.format(
+                            '"{}" cannot be longer than {} characters'.format(
                                 statement,
                                 DIALOG_MAXIMUM_CHARACTER_LENGTH
                             )
                         )
+
+    def test_conversation_format(self):
+        corpora = corpus.load_corpus('chatterbot.corpus')
+
+        for conversations in corpora:
+            for conversation in conversations:
+                for text in conversation:
+                    if not isinstance(text, str):
+                        self.fail('"{}" must be a string, not {}.'.format(
+                            str(text),
+                            type(text)
+                        ))
