@@ -1,5 +1,7 @@
 from unittest import TestCase
-from chatterbot_corpus import corpus
+from chatterbot import corpus
+from chatterbot.constants import STATEMENT_TEXT_MAX_LENGTH
+
 
 
 class CorpusUtilsTestCase(TestCase):
@@ -10,29 +12,26 @@ class CorpusUtilsTestCase(TestCase):
 
     def test_character_count(self):
         """
-        Test that no line in the corpus exceeds the
-        maximum number of characters.
+        Test that no line in the corpus exceeds the maximum number of characters.
         """
-        from chatterbot_corpus.corpus import DIALOG_MAXIMUM_CHARACTER_LENGTH
+        files = corpus.list_corpus_files('chatterbot_corpus')
 
-        corpora = corpus.load_corpus('chatterbot.corpus')
-
-        for conversations in corpora:
-            for conversation in conversations:
-                for statement in conversation:
-                    if len(statement) > DIALOG_MAXIMUM_CHARACTER_LENGTH:
+        for dialog_corpus, _categories, _file_path in corpus.load_corpus(*files):
+            for conversation in dialog_corpus:
+                for text in conversation:
+                    if len(text) > STATEMENT_TEXT_MAX_LENGTH:
                         self.fail(
                             '"{}" cannot be longer than {} characters'.format(
-                                statement,
-                                DIALOG_MAXIMUM_CHARACTER_LENGTH
+                                text,
+                                STATEMENT_TEXT_MAX_LENGTH
                             )
                         )
 
     def test_conversation_format(self):
-        corpora = corpus.load_corpus('chatterbot.corpus')
+        files = corpus.list_corpus_files('chatterbot_corpus')
 
-        for conversations in corpora:
-            for conversation in conversations:
+        for dialog_corpus, _categories, _file_path in corpus.load_corpus(*files):
+            for conversation in dialog_corpus:
                 for text in conversation:
                     if not isinstance(text, str):
                         self.fail('"{}" must be a string, not {}.'.format(

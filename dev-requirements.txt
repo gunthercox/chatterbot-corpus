@@ -1,6 +1,6 @@
+chatterbot>=1.0,<1.1
 nose
 pip
-pyyaml>=4.2b1,<4.3
 twine
 flake8
 sphinx>=1.8,<1.9
