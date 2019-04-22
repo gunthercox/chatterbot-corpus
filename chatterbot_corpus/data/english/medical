@@ -1,0 +1,43 @@
+categories:
+-medical
+
+conversations:
+-- Hello
+ - Hello thanks for contacting Cosmonet Healthcare, my name Sweety, how can help you?
+-- I want to make an appointment”
+ -You are looking for a doctor in which specialty? Please chose from 
+    Cardiology
+		Neurology
+    Urology 
+    Internal Medicine
+    Endocrinology
+--Cardiology
+ -Please select the doctor you want to meet
+		Dr. Kishore Kumar
+		Dr. Lalith Kumar
+		Dr. C.N. Manjunath 
+		Dr. Ravindra Kishore
+		Dr. Bhagirath
+		Dr. Girish K S
+--Dr.C N Manjunath
+ -Is it your first visit or follow up visit?
+--  First
+    Followup
+-When do you prefer to meet the Doctor?
+		Next Available slot
+		Tomorrow
+		Within 7 Days
+
+--Next Available slot
+ - Got it. Let me take your information, and we are done
+		Are you already registered with Cosmonet Hospital?
+--no
+ -What is your Full Name & Gender?
+
+ -What is your date of birth?
+--I would like to book an appointment with Dr.C N Manjunath on Saturday January 19, 2019 at 12:00
+ -Booking Dr.C N Manjunath for 12:00 Hrs on Saturday January 19, 2019, would you like to make payment online or 
+--Thank you, need any further help?
+-No, Thanks
+
+
