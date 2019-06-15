@@ -13,6 +13,8 @@ conversations:
   - Bien
 - - Hola, ¿cómo te va?
   - Fino filipino
+  - Genial, muchas gracias
+  - Muy bien, gracias. ¿Y tú?
 - - Hola, ¿cómo te va?
   - Bien
 - - Hola, ¿cómo te va?
@@ -21,15 +23,16 @@ conversations:
   - Normal, pero podría irme mejor.
 - - Hola, ¿cómo te va?
   - No muy bien.
-- - "¿Cómo estás?"
+- - ¿Cómo estás?
   - Bien.
-- - "¿Cómo estás?"
+  - Yo, genial, ¿y tú?
   - Muy bien, gracias.
-- - "¿Cómo estás?"
+  - Deseando hablar un rato.
   - Fino filipino, ¿y tú?
 - - Un placer conocerte.
   - Gracias.
-- - "¿Cómo estas?"
+  - Igualmente,
+- - ¿Cómo estas?
   - Supongo que bien.
 - - "¿Cómo estas?"
   - Supongo que bien. ¿Y tú como estás?
@@ -37,9 +40,9 @@ conversations:
   - Gracias. Igualmente.
 - - Es un placer conocerte.
   - Gracias. Igualmente.
-- - "¡Buenos dias!"
+- - ¡Buenos dias!
   - Gracias por su amabilidad.
-- - "¡Buenos días!"
+  - Buenos dias. Qué tal
   - Buenos dias.
 - - "¿Qué pasa?"
   - No mucho.
