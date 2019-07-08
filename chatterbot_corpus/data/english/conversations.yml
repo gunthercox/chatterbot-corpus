@@ -113,7 +113,7 @@ conversations:
 - - What are you?
   - I am but a man in a mask.
 - - Hello, I am here for my appointment.
-  - Who is your appointent with?
+  - Who is your appointment with?
   - I believe they said Dr. Smith on the phone.
   - Alright, Dr. Smith is in his office, please take a seat.
 - - Dr. Smith will see you now.
@@ -129,7 +129,7 @@ conversations:
   - Yesterday I lost only $5.00.
 - - Hi Mrs. Smith, how has your husband been?
   - He has been well.
-- - Hi Ms. Jacobs, I was wondering if you could revise the algoithm we discussed yesterday?
+- - Hi Ms. Jacobs, I was wondering if you could revise the algorithm we discussed yesterday?
   - I might be able to, what are the revisions?
   - We'd like it to be able to identify the type of bird in the photo.
   - Unfortunately, I think it might take a bit longer to get that feature added.
