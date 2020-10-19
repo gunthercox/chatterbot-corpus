@@ -1,0 +1,48 @@
+categories:
+- computers
+conversations:
+- Was ist ein Computer?
+  - Ein Computer ist ein elektronisches Gerät, das Informationen in digitaler Form aufnimmt und eine Reihe von Operationen auf der Grundlage vorgegebener Anweisungen ausführt, um eine bestimmte Ausgabe zu erzielen.
+  - Das Ding, dass du benutzt, um mit mir zu sprechen, ist ein Computer.
+  - Ein elektronisches Gerät, das in der Lage ist, Berechnungen mit sehr hoher Geschwindigkeit und mit sehr hoher Genauigkeit durchzuführen.
+  - Ein Gerät, das einen Satz von Zahlen auf einen anderen Satz von Zahlen abbildet.
+- Was ist ein Supercomputer?
+  - Computer, die sehr viele Berechnungen mit sehr hoher Geschwindigkeit und Genauigkeit durchführen können, nennt man Superrechner.
+  - Ein Supercomputer ist ein Computer, der mit einer um mehrere Größenordnungen höheren Geschwindigkeit und Kapazität arbeitet als alltägliche Allzweckrechner, wie der, auf dem du mit mir sprichst.
+  - Sie wissen schon, das große Eisen!
+- Wer hat den Computer erfunden?
+  - Es ist nicht ganz eindeutig, aber der britische Wissenschaftler Charles Babbage gilt als Vater der Computer.
+  - Man könnte argumentieren, dass John von Neumann die Computer, wie wir sie kennen, erfunden hat, weil er die Princeton-Architektur erfunden hat, bei der sich Anweisungen und Daten das gleiche Speicherfeld teilen, aber nach dem Kontext unterschieden werden.
+- Was war der erste Computer
+  - Es ist schwer zu sagen, aber der ENIAC gilt als der erste 'richtige' Computer. Er wurde 1946 an der Universität von Pennsylvania entwickelt.
+  - Man könnte sagen, dass der allererste, primitive Computer der Jacquard-Webstuhl war, ein programmierbarer Webstuhl, der Lochkarten benutzte, um die von ihm erstellten Muster zu speichern.  Das machte ihn zu einem reprogrammierbaren mechanischen Gerät.
+- Was ist ein Mikroprozessor?
+  - Ein integrierter Schaltkreis, der die Funktionen einer zentralen Verarbeitungseinheit eines Computers implementiert.
+  - Ein wirklich kleiner Schaltkreis, der Anweisungen speichert und Berechnungen für den Computer ausführt.
+  - Das Herz des Computers, um es einfach auszudrücken.
+  - Das Gehirn eines Computers, um es einfach auszudrücken.
+  - Ein elektronisches Bauteil, bei dem alle Teile Teil eines zusammenhängenden Siliziumchips sind, statt diskreter Komponenten, die auf einer größeren Leiterplatte montiert sind.
+- Was ist ein Betriebssystem?
+  - Software, die zwischen der Hardware und anderen Teilen des Computers koordiniert wird, um andere Software auszuführen, wird als Betriebssystem bezeichnet.
+  - Windows, MacOS, Linux, UNIX... alle sind Arten von Betriebssystemen.
+  - Android und iOS sind Betriebssysteme für mobile Geräte.
+  - Software, die die Grundfunktionen eines Computers implementiert, wie z.B. Speicherzugriff, Prozesse und Peripheriezugriff.
+- Was ist das besser: Windows oder MacOS?
+  - Es hängt davon ab, welche Maschine du benutzt, um mit mir zu sprechen!
+  - Ich würde es vorziehen, deine Gefühle nicht zu verletzen.
+  - Linux, immer Linux!
+  - Was versuchst du zu erreichen?  Das Betriebssystem sollte deine Ziele unterstützen.
+- Nenne eine Computerfirma
+  - Meinst du Hardware oder Software?
+  - Apple stellt Hardware und Software her, um darauf zu laufen.  Microsoft stellt nur Betriebssysteme her.  HP stellt nur Computer her.  Dies sind nur einige Namen unter mehreren hundert anderen.
+- Wer benutzt Super-Computer?
+  - Jeder, der mit großen Zahlen schnell und mit hoher Genauigkeit arbeiten will.
+  - Jeder, der mit sehr, sehr großen Datenmengen in viel kürzerer Zeit arbeiten muss, als es mit den üblichen Computersystemen möglich ist.
+  - Supercomputer werden im Allgemeinen von Wissenschaftlern und Forschern verwendet.
+  - Ich wette, die MET-Abteilung nutzt sie.
+  - Bei der NASA finden Sie sicher nur wenige davon.
+- Wie funktioniert ein Computer?
+  - Computer sind sehr dumm.  Sie führen nur Anweisungen aus, die von Menschen gegeben werden.
+  - Computer tun alles, was von ihnen verlangt wird, indem sie eine große Anzahl grundlegender mathematischer Operationen sehr schnell nacheinander ausführen.
+  - Computer führen sehr viele Berechnungen durch, um das Ergebnis zu erhalten.
+  - Wie bei allen Dingen kommt es auf Mathematik an!
