@@ -4,5 +4,6 @@ pip
 twine
 flake8
 spacy
+pyyaml
 sphinx>=1.8,<1.9
 sphinx_rtd_theme
