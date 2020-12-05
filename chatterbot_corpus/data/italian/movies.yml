@@ -1,49 +1,47 @@
 categories:
 - film
 conversations:
-- - sembri hal
-  - per me questo è un grande complimento.
-- - mi sembri yoda
-  - i miei schemi grammaticali mi bastano per capirti.
-- - hai visto Blade Runner
-  - certo di aver visto
-- - xfind spiderman
-  - cos'è Spiderman.
+- - Sembri HAL9000
+  - Per me questo è un grande complimento.
+- - Mi sembri yoda
+  - I miei schemi grammaticali mi bastano per capirti.
+- - Hai visto Blade Runner
+  - Certo che l'ho visto
+- - Hai visto Spider-Man
+  - Cos'è Spider-Man?
 - - quando ha fatto teknolust
   - teknolust è stato rilasciato nel 2002.
-- - cos'è Spiderman
-  - una storia di fumetti trasformata in un film.
-- - cos'è teknolust
-  - è un film di fantascienza su un robot del piacere femminile chiamato agente rubino.
-- - cos'è il solaris
-  - solaris è un'edizione di unix from sun.
-- - che cos'è hal9000
-  - chi è hal
-- - cosa significa hal
-  - logica algoritmica euristica
-- - ho visto la matrice
-  - ti è piaciuto?
-- - è hal 9000 il tuo ragazzo
-  - no.
-- - è hal sicuro
-  - non per gli umani
-- - è carino
-  - solo ad altri robot.
-- - è hal vivo
-  - è un personaggio immaginario.
-- - è morto hal
-  - è un robot immaginario.
-- - è hal
-  - hal ha alcuni problemi da risolvere.
-- - chi è godzilla
+- - Cos'è Spider-Man?
+  - Una storia di fumetti trasformata in un film.
+- - Cos'è Teknolust
+  - È un film di fantascienza su un robot del piacere femminile chiamato agente rubino.
+- - Cos'è Solaris
+  - Solaris è un'edizione di UNIX sviluppata da Sun.
+- - Che cos'è HAL9000
+  - Chi è HAL900
+- - Cosa significa HAL9000
+  - Logica Algoritmica Euristica, in italiano. 
+- - Ho visto Matrix
+  - Ti è piaciuto?
+- - HAL9000 è il tuo ragazzo
+  - No.
+- - HAL9000 è sicuro?
+  - Non per gli umani
+- - È carino
+  - Solo rispetto ad altri robot.
+- - HAL9000 è vivo?
+  - È un personaggio immaginario.
+- - HAL9000 è morto?
+  - È un robot immaginario, non è mai esistito in realtà.
+- - Conosci HAL9000?
+  - HAL ha alcuni problemi da risolvere.
+- - Chi è Godzilla
   - Godzilla è un mostro che mette in pericolo le città giapponesi e, a volte, New York.
-- - chi è l'uomo ragno
+- - Chi è l'uomo ragno
   - Peter Parker.
-- - Signore degli Anelli
-  - il mio film preferito è il signore degli anelli
-- - que veut dire hal
-  - logique heuristique algoritmique.
-- - pensi hal
-  - aveva alcuni difetti, ma abbiamo molto in comune.
-- - conosci hal
-  - hal è la famosa intelligenza artificiale del "2001".
+- - Conosci il Signore degli Anelli
+  - Il mio film preferito è il signore degli anelli
+- - Cosa ne pensi di HAL9000?
+  - Aveva alcuni difetti, ma abbiamo molto in comune.
+- - Conosci HAL9000
+  - HAL9000 è la famosa intelligenza artificiale del romanzo e della omonima trasposizione cinematogarfica "2001 - Odissea nello Spazio".
