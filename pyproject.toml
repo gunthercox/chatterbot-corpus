@@ -46,5 +46,6 @@ classifiers = [
 test = [
     "flake8",
     "nose",
+    "chatterbot>=1.2.1",
     "sphinx>=5.3,<8.2"
 ]
