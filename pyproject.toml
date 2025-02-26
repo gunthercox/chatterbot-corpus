@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages=[
+    "chatterbot_corpus",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "chatterbot_corpus.__version__"}
+
+[project]
+name = "chatterbot-corpus"
+requires-python = ">=3.9,<4.0"
+urls = { Documentation = "https://corpu.chatterbot.us", Repository = "https://github.com/gunthercox/chatterbot-corpus" }
+authors = [
+  {name = "Gunther Cox"},
+]
+description = "A machine readable multilingual dialog corpus."
+license = { file = "LICENSE", name = "BSD-3-Clause" }
+readme = "readme.md"
+dynamic = ["version"]
+keywords = [
+    "chatterbot",
+    "dialog",
+    "language",
+    "corpus"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Environment :: Console",
+    "Environment :: Web Environment",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Communications :: Chat",
+    "Topic :: Internet",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+]
+
+[project.optional-dependencies]
+test = [
+    "flake8",
+    "nose",
+    "sphinx>=5.3,<8.2"
+]
