@@ -1,4 +1,5 @@
 {% extends '!layout.html' %}
+{# https://github.com/sphinx-doc/sphinx/blob/master/sphinx/themes/basic/layout.html #}
 
 {% block menu %}
     {{ super() }}
@@ -13,4 +14,21 @@
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
 
+{% endblock %}
+
+{%- block relbaritems %}
+    <li class="right"><a href="{{github_page_link()}}">Edit on GitHub</a> |</li>
+{% endblock %}
+
+{%- block footer %}
+    {{ super() }}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-456CFZYJGV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-456CFZYJGV');
+    </script>
 {% endblock %}

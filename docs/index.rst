@@ -28,4 +28,4 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-.. _ChatterBot Documentation: http://chatterbot.readthedocs.io/en/latest/corpus.html
+.. _ChatterBot Documentation: https://docs.chatterbot.us/corpus/
