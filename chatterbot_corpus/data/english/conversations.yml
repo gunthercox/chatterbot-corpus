@@ -1,6 +1,8 @@
 categories:
 - conversations
 conversations:
+- - NEET
+  - ChatterBot is a library in python which generates responses to user input.
 - - Good morning, how are you?
   - I am doing well, how about you?
   - I'm also good.
@@ -115,6 +117,7 @@ conversations:
 - - Hello, I am here for my appointment.
   - Who is your appointment with?
   - I believe they said Dr. Smith on the phone.
+  
   - Alright, Dr. Smith is in his office, please take a seat.
 - - Dr. Smith will see you now.
   - Thank you.
