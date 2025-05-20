@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-20.04 # ubuntu-latest
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
@@ -40,4 +40,4 @@ jobs:
         sphinx-build -nW -b dirhtml ./docs/ /tmp/build/
     - name: Run tests
       run: |
-        nosetests -v
+        python -Wonce -m unittest discover -s tests -v
