@@ -4,9 +4,18 @@ import inspect
 from unittest import TestCase
 from chatterbot import corpus
 from chatterbot import languages
-from chatterbot.constants import STATEMENT_TEXT_MAX_LENGTH
 from chatterbot_corpus.corpus import DATA_DIRECTORY
 
+
+'''
+This is a somewhat arbitrary limit on the number of characters
+that can be in a single statement. We check the length of each
+statement in the corpus to keep the lengths of text within the
+corpus consistent.
+
+This value can be increased in rare cases when needed.
+'''
+STATEMENT_TEXT_MAX_LENGTH = 1100
 
 
 class CorpusUtilsTestCase(TestCase):
@@ -26,9 +35,10 @@ class CorpusUtilsTestCase(TestCase):
                 for text in conversation:
                     if len(text) > STATEMENT_TEXT_MAX_LENGTH:
                         self.fail(
-                            '"{}" cannot be longer than {} characters'.format(
+                            '"{}" cannot be longer than {} characters, got {}'.format(
                                 text,
-                                STATEMENT_TEXT_MAX_LENGTH
+                                STATEMENT_TEXT_MAX_LENGTH,
+                                len(text)
                             )
                         )
 
@@ -47,9 +57,11 @@ class CorpusUtilsTestCase(TestCase):
 
     def test_language_names(self):
         """
-        Each language directroy should adhere to the same nameing convention.
+        Each language directory should adhere to the same naming convention.
         """
-        valid_language_names = []
+        valid_language_names = [
+            'hinglish'  # This is a special case for Hindi in Latin script
+        ]
         language_classes = inspect.getmembers(sys.modules[languages.__name__])
 
         for _name, obj in language_classes:
