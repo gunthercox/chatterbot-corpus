@@ -1,6 +1,7 @@
 import os
 import sys
 import inspect
+import yaml
 from unittest import TestCase
 from chatterbot import corpus
 from chatterbot import languages
@@ -81,3 +82,59 @@ class CorpusUtilsTestCase(TestCase):
 
         for directory_name in os.listdir(DATA_DIRECTORY):
             self.assertIn(directory_name, valid_language_names)
+
+    def test_yaml_keys_are_english(self):
+        """
+        Test that all YAML corpus files use English keys 'categories' and 'conversations'
+        rather than localized translations, ensuring consistent parsing across languages.
+        """
+        for language_dir in os.listdir(DATA_DIRECTORY):
+            language_path = os.path.join(DATA_DIRECTORY, language_dir)
+
+            if not os.path.isdir(language_path):
+                continue
+
+            for filename in os.listdir(language_path):
+                if not filename.endswith('.yml'):
+                    continue
+
+                file_path = os.path.join(language_path, filename)
+
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    try:
+                        data = yaml.safe_load(file)
+
+                        # Check that 'categories' key exists (not localized variants)
+                        self.assertIn(
+                            'categories',
+                            data,
+                            f'{file_path} must use "categories" key (not localized)'
+                        )
+
+                        # Check that 'conversations' key exists (not localized variants)
+                        self.assertIn(
+                            'conversations',
+                            data,
+                            f'{file_path} must use "conversations" key (not localized)'
+                        )
+
+                        # Ensure no common localized variants are used
+                        localized_keys = [
+                            'kategori', 'percakapan',  # Indonesian
+                            'categorias', 'conversaciones',  # Spanish
+                            'kategorien', 'gesprache',  # German
+                            'категории', 'разговоры',  # Russian
+                            'catégories', 'conversations',  # French (conversations same)
+                        ]
+
+                        for key in localized_keys:
+                            if key in ['conversations']:  # Skip English words
+                                continue
+                            self.assertNotIn(
+                                key,
+                                data,
+                                f'{file_path} should not use localized key "{key}"'
+                            )
+                    except yaml.YAMLError as e:
+                        self.fail(f'YAML parsing error in {file_path}: {e}')
+
