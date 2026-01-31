@@ -29,18 +29,29 @@ class CorpusUtilsTestCase(TestCase):
         Test that no line in the corpus exceeds the maximum number of characters.
         """
         files = corpus.list_corpus_files('chatterbot_corpus')
+        failures = []
+        max_length = 0
 
         for dialog_corpus, _categories, _file_path in corpus.load_corpus(*files):
+            line_number = 0
             for conversation in dialog_corpus:
                 for text in conversation:
+                    line_number += 1
                     if len(text) > STATEMENT_TEXT_MAX_LENGTH:
-                        self.fail(
-                            '"{}" cannot be longer than {} characters, got {}'.format(
-                                text,
+                        max_length = max(max_length, len(text))
+                        truncated_text = text[:100] + '...' if len(text) > 100 else text
+                        failures.append(
+                            'File: {}\nLine: {}\nContent: "{}"\nError: Cannot be longer than {} characters, got {}'.format(
+                                _file_path,
+                                line_number,
+                                truncated_text,
                                 STATEMENT_TEXT_MAX_LENGTH,
                                 len(text)
                             )
                         )
+
+        if failures:
+            self.fail('\n\n'.join(failures + ['\nTotal: {} lines exceeding character limit (max length: {})'.format(len(failures), max_length)]))
 
     def test_conversation_format(self):
         files = corpus.list_corpus_files('chatterbot_corpus')
