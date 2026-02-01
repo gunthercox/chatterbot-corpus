@@ -46,6 +46,6 @@ classifiers = [
 test = [
     "flake8",
     "sphinx>=5.3,<8.2",
-    "chatterbot>=1.2.6",
+    "chatterbot>=1.2.12",
     "pyyaml>=6.0,<7.0"
 ]
