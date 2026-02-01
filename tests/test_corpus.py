@@ -52,14 +52,20 @@ class CorpusUtilsTestCase(TestCase):
 
 class CorpusLoadingTestCase(TestCase):
 
+    def test_load_corpus_bengali(self):
+        files = corpus.list_corpus_files('chatterbot_corpus/data/bengali')
+        corpus_data = list(corpus.load_corpus(*files))
+
+        self.assertTrue(len(corpus_data))
+
     def test_load_corpus_chinese(self):
         files = corpus.list_corpus_files('chatterbot_corpus/data/chinese')
         corpus_data = list(corpus.load_corpus(*files))
 
         self.assertTrue(len(corpus_data))
 
-    def test_load_corpus_traditional_chinese(self):
-        files = corpus.list_corpus_files('chatterbot_corpus/data/traditionalchinese')
+    def test_load_corpus_dutch(self):
+        files = corpus.list_corpus_files('chatterbot_corpus/data/dutch')
         corpus_data = list(corpus.load_corpus(*files))
 
         self.assertTrue(len(corpus_data))
@@ -69,11 +75,6 @@ class CorpusLoadingTestCase(TestCase):
         corpus_data = list(corpus.load_corpus(*files))
 
         self.assertTrue(len(corpus_data))
-  def test_load_corpus_bengali(self):
-        files = corpus.list_corpus_files('chatterbot_corpus/data/bengali')
-        corpus_data = list(corpus.load_corpus(*files))
-
-        self.assertTrue(len(corpus_data))        
 
     def test_load_corpus_french(self):
         files = corpus.list_corpus_files('chatterbot_corpus/data/french')
@@ -87,8 +88,20 @@ class CorpusLoadingTestCase(TestCase):
 
         self.assertTrue(len(corpus_data))
 
+    def test_load_corpus_hebrew(self):
+        files = corpus.list_corpus_files('chatterbot_corpus/data/hebrew')
+        corpus_data = list(corpus.load_corpus(*files))
+
+        self.assertTrue(len(corpus_data))
+
     def test_load_corpus_hindi(self):
         files = corpus.list_corpus_files('chatterbot_corpus/data/hindi')
+        corpus_data = list(corpus.load_corpus(*files))
+
+        self.assertTrue(len(corpus_data))
+
+    def test_load_corpus_hinglish(self):
+        files = corpus.list_corpus_files('chatterbot_corpus/data/hinglish')
         corpus_data = list(corpus.load_corpus(*files))
 
         self.assertTrue(len(corpus_data))
@@ -105,8 +118,32 @@ class CorpusLoadingTestCase(TestCase):
 
         self.assertTrue(len(corpus_data))
 
+    def test_load_corpus_japanese(self):
+        files = corpus.list_corpus_files('chatterbot_corpus/data/japanese')
+        corpus_data = list(corpus.load_corpus(*files))
+
+        self.assertTrue(len(corpus_data))
+
+    def test_load_corpus_korean(self):
+        files = corpus.list_corpus_files('chatterbot_corpus/data/korean')
+        corpus_data = list(corpus.load_corpus(*files))
+
+        self.assertTrue(len(corpus_data))
+
     def test_load_corpus_marathi(self):
         files = corpus.list_corpus_files('chatterbot_corpus/data/marathi')
+        corpus_data = list(corpus.load_corpus(*files))
+
+        self.assertTrue(len(corpus_data))
+
+    def test_load_corpus_oriya(self):
+        files = corpus.list_corpus_files('chatterbot_corpus/data/oriya')
+        corpus_data = list(corpus.load_corpus(*files))
+
+        self.assertTrue(len(corpus_data))
+
+    def test_load_corpus_persian(self):
+        files = corpus.list_corpus_files('chatterbot_corpus/data/persian')
         corpus_data = list(corpus.load_corpus(*files))
 
         self.assertTrue(len(corpus_data))
@@ -129,8 +166,44 @@ class CorpusLoadingTestCase(TestCase):
 
         self.assertTrue(len(corpus_data))
 
+    def test_load_corpus_swedish(self):
+        files = corpus.list_corpus_files('chatterbot_corpus/data/swedish')
+        corpus_data = list(corpus.load_corpus(*files))
+
+        self.assertTrue(len(corpus_data))
+
+    def test_load_corpus_tamil(self):
+        files = corpus.list_corpus_files('chatterbot_corpus/data/tamil')
+        corpus_data = list(corpus.load_corpus(*files))
+
+        self.assertTrue(len(corpus_data))
+
     def test_load_corpus_telugu(self):
         files = corpus.list_corpus_files('chatterbot_corpus/data/telugu')
+        corpus_data = list(corpus.load_corpus(*files))
+
+        self.assertTrue(len(corpus_data))
+
+    def test_load_corpus_thai(self):
+        files = corpus.list_corpus_files('chatterbot_corpus/data/thai')
+        corpus_data = list(corpus.load_corpus(*files))
+
+        self.assertTrue(len(corpus_data))
+
+    def test_load_corpus_traditional_chinese(self):
+        files = corpus.list_corpus_files('chatterbot_corpus/data/traditionalchinese')
+        corpus_data = list(corpus.load_corpus(*files))
+
+        self.assertTrue(len(corpus_data))
+
+    def test_load_corpus_turkish(self):
+        files = corpus.list_corpus_files('chatterbot_corpus/data/turkish')
+        corpus_data = list(corpus.load_corpus(*files))
+
+        self.assertTrue(len(corpus_data))
+
+    def test_load_corpus_ukrainian(self):
+        files = corpus.list_corpus_files('chatterbot_corpus/data/ukrainian')
         corpus_data = list(corpus.load_corpus(*files))
 
         self.assertTrue(len(corpus_data))
