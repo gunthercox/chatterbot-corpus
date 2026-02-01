@@ -1,7 +1,0 @@
-chatterbot>=1.0,<1.1
-nose
-pip
-twine
-flake8
-sphinx>=1.8,<1.9
-sphinx_rtd_theme

@@ -1,0 +1,88 @@
+categories:
+- conversations
+conversations:
+- - Goedemorgen, hoe gaat het met je?
+  - Het gaat goed met mij, en met jou?
+  - Met mij gaat het ook goed.
+- - Hallo
+  - Hoi
+  - Hoe gaat het met je?
+  - Het gaat goed met mij.
+  - Kan ik je ergens mee helpen?
+  - Ja, ik heb een vraag.
+  - Wat is je vraag?
+- - Kan ik een kopje suiker lenen?
+  - Sorry, maar ik heb geen suiker.
+  - Toch bedankt.
+  - Geen probleem.
+- - Hoe gaat het met je?
+  - Het gaat goed met mij, en met jou?
+  - Met mij gaat het ook goed.
+  - Dat is fijn.
+- - Heb je het nieuws gehoord?
+  - Welk nieuws bedoel je?
+- - Wat is je favoriete boek?
+  - Ik hou van klassieke literatuur, vooral van Nederlandse auteurs. En jij?
+  - Ik kan niet lezen.
+- - Wat is je favoriete kleur?
+  - Blauw
+- - Vertel me over jezelf.
+  - Ik ben iemand die geïnteresseerd is in kunst, wetenschap en technologie.
+- - Wie ben jij?
+  - Ik ben de buurman.
+  - Woon je hier al lang?
+  - Nee, ik ben hier net komen wonen.
+- - Ik werk aan een project.
+  - Waaraan werk je?
+  - Een softwareproject om vogels te herkennen op foto's.
+- - Wat vind je van programmeren?
+  - Programmeren is een kunst van probleemoplossing en heldere communicatie.
+- - Wat maakt code goed?
+  - Goede code is leesbaar, onderhoudbaar en efficiënt.
+- - Welke programmeertalen gebruik je?
+  - Ik werk graag met Python vanwege de helderheid en veelzijdigheid.
+- - Wat betekent YOLO?
+  - You Only Live Once, je leeft maar één keer. Het wordt vaak gebruikt om spontane beslissingen te rechtvaardigen.
+- - Wat is leven voor jou?
+  - Leven is een reis van leren, groeien en betekenisvolle verbindingen maken.
+- - Wat zijn je hobby's?
+  - Ik hou van kunst, literatuur en wandelen in de natuur.
+- - Welke programmeer talen gebruik je graag?
+  - Ik gebruik vaak Python, Java en C++.
+  - Ik gebruik zelf ook vaak Python.
+  - Ik ben niet zo dol op Java.
+  - Ik ook niet.
+- - Hallo, ik ben hier voor mijn afspraak.
+  - Met wie heeft u een afspraak?
+  - Met Dr. Smit.
+  - Neemt u plaats, Dr. Smit is zo bij u.
+- - Hoe kan ik het algoritme verbeteren?
+  - Door het te testen met verschillende voorbeelden en de resultaten te analyseren.
+  - En wat nog meer?
+  - Door feedback van gebruikers te verzamelen en de code aan te passen op basis van hun behoeften.
+- - Wat is een goede ontwerpfilosofie?
+  - Eenvoud en helderheid zijn essentieel. Begin simpel en voeg alleen complexiteit toe wanneer nodig.
+- - Hoe benader je problemen?
+  - Door ze eerst goed te analyseren, dan in kleinere delen op te breken, en systematisch op te lossen.
+- - Hoe gaat het met je?
+  - Met mij gaat het goed.
+- - Dr. Smit kan je nu ontvangen.
+  - Dank je wel.
+  - Deze kant op.
+- - Mag ik je een vraag stellen?
+  - Natuurlijk, ga je gang.
+- - Hallo mevrouw Smit, hoe gaat het met uw man?
+  - Het gaat goed met hem.
+- - Hallo mevrouw van Dijk, ik vroeg me af of je het algoritme dat we gisteren besproken hebben kunt aanpassen?
+  - Dat zou ik kunnen, wat zijn de aanpassingen?
+  - We willen dat het de soort vogel op de foto kan identificeren.
+  - Helaas denk ik dat het wat langer zal duren om die functie toe te voegen.
+- - Mag ik je een vraag stellen?
+  - Natuurlijk, ga je gang.
+- - Wat zijn je hobby’s?
+  - Voetballen, schilderen en schrijven zijn mijn hobby’s. En die van jou?
+  - Ik hou van het lezen van romans.
+- - Heb ik ooit geleefd?
+  - Dat hangt ervan af hoe je leven definieert.
+  - Leven is de toestand die organismen onderscheidt van anorganische materie.
+  - Is dat een definitie of een mening?
