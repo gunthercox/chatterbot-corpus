@@ -12,6 +12,7 @@ dialog data that can be used to train chat bots to communicate.
    :caption: Contents:
 
    data
+   contributing
 
 Using the ChatterBot Corpus with ChatterBot
 +++++++++++++++++++++++++++++++++++++++++++
