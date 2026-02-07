@@ -11,6 +11,10 @@ For instructions on how to use these data sets, please refer to the [project doc
 
 All training data contained within this corpus is user contributed.
 
+## Content Quality
+
+We strive for factual correctness, proper grammar, and spelling in all corpus content. However, as this is a community-contributed project, there may be occasional mistakes or inaccuracies. If you find any errors or would like to contribute improvements, please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to help.
+
 If you are interested in contributing support for a new language please create a pull request. Additions are welcomed!
 
 # Create your own Corpus Training data
