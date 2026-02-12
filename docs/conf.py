@@ -31,10 +31,10 @@ extensions = [
 templates_path = ['_templates']
 
 # The suffix(es) of source filenames.
-source_suffix = ['.rst', '.md']
+source_suffix = ['.rst']
 
-# The master toctree document.
-master_doc = 'index'
+# The root toctree document.
+# root_doc is set below (master_doc is deprecated)
 
 # General information about the project.
 project = 'chatterbot-corpus'
@@ -102,7 +102,8 @@ html_css_files = [
 ]
 
 html_js_files = [
-    'silktide-consent-manager.js'
+    'silktide-consent-manager.js',
+    'mobile.js'
 ]
 
 # Custom sidebar templates, must be a dictionary that maps document names
@@ -149,7 +150,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'chatterbot-corpus.tex', 'chatterbot-corpus Documentation',
+    (root_doc, 'chatterbot-corpus.tex', 'chatterbot-corpus Documentation',
      'Gunther Cox', 'manual'),
 ]
 
@@ -159,7 +160,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'chatterbot-corpus', 'chatterbot-corpus Documentation',
+    (root_doc, 'chatterbot-corpus', 'chatterbot-corpus Documentation',
      [author], 1)
 ]
 
@@ -170,8 +171,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'chatterbot-corpus', 'chatterbot-corpus Documentation',
-     author, 'chatterbot-corpus', 'One line description of project.',
+    (root_doc, 'chatterbot-corpus', 'chatterbot-corpus Documentation',
+     author, 'chatterbot-corpus', 'A machine readable multilingual dialog corpus.',
      'Miscellaneous'),
 ]
 
