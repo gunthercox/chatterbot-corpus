@@ -15,7 +15,7 @@ This format is used because it is easily readable by both humans and machines.
      - Required
      - A list of categories that describe the conversations.
    * - conversations
-     - Optional
+     - Required
      - A list of conversations. Each conversation is denoted as a list.
 
 Here is an example of the corpus data:

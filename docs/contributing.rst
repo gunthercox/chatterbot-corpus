@@ -101,8 +101,8 @@ Questions?
 
 If you have questions about contributing:
 
-1. Check existing issues and pull requests
-2. Review the CONTRIBUTING.md guide thoroughly
-3. Open an issue with your question if you can't find an answer
+1. Check existing `issues and pull requests <https://github.com/gunthercox/chatterbot-corpus/issues>`_ on GitHub
+2. Review the `CONTRIBUTING.md <https://github.com/gunthercox/chatterbot-corpus/blob/master/CONTRIBUTING.md>`_ guide thoroughly
+3. `Open a new issue <https://github.com/gunthercox/chatterbot-corpus/issues/new>`_ with your question if you can't find an answer
 
-Thank you for helping make ChatterBot better for everyone! 🌟
+Thank you for helping make ChatterBot better for everyone!

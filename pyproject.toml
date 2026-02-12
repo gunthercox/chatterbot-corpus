@@ -19,7 +19,7 @@ authors = [
 ]
 description = "A machine readable multilingual dialog corpus."
 license = { file = "LICENSE", name = "BSD-3-Clause" }
-readme = "readme.md"
+readme = "README.md"
 dynamic = ["version"]
 keywords = [
     "chatterbot",
