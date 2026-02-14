@@ -32,6 +32,7 @@ covering different conversation topics (such as greetings, food, humor, etc.).
 - Turkish
 - Ukrainian
 - Urdu
+- Yoruba
 
 .. note::
 
