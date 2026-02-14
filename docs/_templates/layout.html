@@ -1,11 +1,33 @@
 {% extends '!layout.html' %}
 {# https://github.com/sphinx-doc/sphinx/blob/master/sphinx/themes/basic/layout.html #}
 
-{% block menu %}
+{%- block relbaritems %}
+    <li class="right"><a href="{{github_page_link()}}">Edit on GitHub</a> |</li>
+{% endblock %}
+
+{%- block footer %}
     {{ super() }}
 
-    <link rel="stylesheet" id="silktide-consent-manager-css" href="{{ pathto('_static/silktide-consent-manager.css', 1) }}">
-    <script src="{{ pathto('_static/silktide-consent-manager.js', 1) }}"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-456CFZYJGV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag(){dataLayer.push(arguments);}
+
+      // Set consent defaults
+      // https://silktide.com/consent-manager/docs/google-consent-mode/
+      gtag('consent', 'default', {
+        analytics_storage: localStorage.getItem('silktideCookieChoice_analytics') === 'true' ? 'granted' : 'denied',
+        ad_storage: localStorage.getItem('silktideCookieChoice_advertising') === 'true' ? 'granted' : 'denied',
+        ad_user_data: localStorage.getItem('silktideCookieChoice_advertising') === 'true' ? 'granted' : 'denied',
+        ad_personalization: localStorage.getItem('silktideCookieChoice_advertising') === 'true' ? 'granted' : 'denied',
+      });
+
+      gtag('js', new Date());
+      gtag('config', 'G-456CFZYJGV');
+    </script>
+
     <script>
     silktideCookieBannerManager.updateCookieBannerConfig({
       background: {
@@ -88,33 +110,5 @@
          data-ad-format="auto"></ins>
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-
-{% endblock %}
-
-{%- block relbaritems %}
-    <li class="right"><a href="{{github_page_link()}}">Edit on GitHub</a> |</li>
-{% endblock %}
-
-{%- block footer %}
-    {{ super() }}
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-456CFZYJGV"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag(){dataLayer.push(arguments);}
-
-      // Set consent defaults
-      // https://silktide.com/consent-manager/docs/google-consent-mode/
-      gtag('consent', 'default', {
-        analytics_storage: localStorage.getItem('silktideCookieChoice_analytics') === 'true' ? 'granted' : 'denied',
-        ad_storage: localStorage.getItem('silktideCookieChoice_advertising') === 'true' ? 'granted' : 'denied',
-        ad_user_data: localStorage.getItem('silktideCookieChoice_advertising') === 'true' ? 'granted' : 'denied',
-        ad_personalization: localStorage.getItem('silktideCookieChoice_advertising') === 'true' ? 'granted' : 'denied',
-      });
-
-      gtag('js', new Date());
-      gtag('config', 'G-456CFZYJGV');
     </script>
 {% endblock %}

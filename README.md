@@ -7,9 +7,12 @@ Although much of ChatterBot is designed to be language independent, it is still 
 training sets available to prime a fresh database and make the variety of responses that a bot can yield
 much more diverse.
 
-For instructions on how to use these data sets, please refer to the [project documentation](https://docs.chatterbot.us/training.html#training-with-corpus-data).
-
 All training data contained within this corpus is user contributed.
+
+## Documentation
+
+Documentation is available at:
+http://corpus.chatterbot.us/
 
 ## Content Quality
 
@@ -41,27 +44,11 @@ conversations:
   - Hello
 ```
 
-# Install your training corpus data to Django
-You need to install chatterbot as the [Quick Start Guide](https://docs.chatterbot.us/quickstart/).
-When the installation are done, please go to `(Virtual Env)/lib/pythonX.X/site-packages/chatterbot_corpus/data/` directory.
-Here is the same structure as you can find in this GitHub repo, here is the area where you can create your own directories and conversation files.
-
-When you are done with your files, then can you edit the Django `setting.py` file and locate the chatterbot training section. 
-Here do you need to add `chatterbot.corpus.<DIRECTORY>.<FILENAME>`
-
-```
-    'training_data': [
-         'chatterbot.corpus.english.greeting',
-         'chatterbot.corpus.custom.myown',
-         'chatterbot.corpus.swedish.food'
-    ]
-```
-
-When you are done, please proceed with the Django Chatterbot Training session. 
-
 # Unit Testing
 
-“A true professional does not waste the time and money of other people by handing over software that is not reasonably free of obvious bugs; that has not undergone minimal unit testing; that does not meet the specifications and requirements; that is gold-plated with unnecessary features; or that looks like junk.” – Daniel Read
+> “A true professional does not waste the time and money of other people by handing over software that is not reasonably free of obvious bugs; that has not undergone minimal unit testing; that does not meet the specifications and requirements; that is gold-plated with unnecessary features; or that looks like junk.”
+> 
+> – Daniel Read
 
 ```bash
 python -Wonce -m unittest discover -s tests -v
