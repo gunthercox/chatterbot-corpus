@@ -31,6 +31,7 @@ covering different conversation topics (such as greetings, food, humor, etc.).
 - Traditional Chinese
 - Turkish
 - Ukrainian
+- Urdu
 
 .. note::
 
